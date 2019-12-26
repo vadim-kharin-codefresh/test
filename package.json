@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "test": "mocha --reporter mocha-allure-reporter"
+    "allure-test": "mocha --reporter mocha-allure-reporter",
+    "awesome-test": "mocha --reporter mochawesome"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
