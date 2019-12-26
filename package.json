@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "test": "mocha --reporter mochawesome"
+    "test": "mocha --reporter mocha-allure-reporter"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -17,6 +17,7 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^6.2.2",
-    "mochawesome": "^4.1.0"
+    "mochawesome": "^4.1.0",
+    "mocha-allure-reporter": "^1.4.0"
   }
 }
