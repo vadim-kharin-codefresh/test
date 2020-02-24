@@ -1,0 +1,20 @@
+version: "1.0"
+stages:
+  - "clone"
+  - "build"
+steps:
+  main_clone:
+     title: "Clone"
+     type: "git-clone"
+     description: "Cloning main repository..."
+     repo: "vadim-kharin-codefresh/test"
+     revision: "${{CF_BRANCH}}"
+     git: test1
+     stage: "clone"
+  build:
+    title: "Building Docker Image"
+    type: "build"
+    image_name: "vadim-kharin-codefresh/test"
+    tag: "${{CF_BRANCH_TAG_NORMALIZED}}"
+    dockerfile: "Dockerfile"
+    stage: "build"
