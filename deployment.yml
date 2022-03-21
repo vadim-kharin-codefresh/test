@@ -1,5 +1,5 @@
 kind: Deployment
-apiVersion: extensions/v1beta1
+apiVersion: v1
 metadata:
   name: nginx-deployment
 spec:
@@ -7,7 +7,7 @@ spec:
   # has a few useful options
   
   # 1. How many copies of each pod do we want?
-  replicas: 3
+  replicas: 1
 
   # 2. How do want to update the pods?
   strategy: Recreate
