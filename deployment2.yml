@@ -1,0 +1,19 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: my-demo-app
+  annotations:
+    branch: {{CF_BRANCH_TAG_NORMALIZED}}
+    source-repository: {{CF_REPO_NAME}}  
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        name: my-demo-app
+        app: my-demo-app
+    spec:
+      containers:
+      - name: my-demo-app
+        image: nginx:1.7.9
+        imagePullPolicy: Always
