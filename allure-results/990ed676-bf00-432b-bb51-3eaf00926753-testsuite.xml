@@ -1,17 +1,19 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1599817696072' stop='1599817696072'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1693837941443' stop='1693837941445'>
     <name>#test() with number arguments</name>
     <title>#test() with number arguments</title>
     <test-cases>
-        <test-case start='1599817696072' status='passed' stop='1599817696072'>
+        <test-case start='1693837941443' status='passed' stop='1693837941445'>
             <name>should return sum of arguments</name>
             <title>should return sum of arguments</title>
             <labels/>
             <parameters/>
             <steps/>
-            <attachments/>
+            <attachments>
+                <attachment title='test.html' source='76a8b218-adb7-4932-93cb-9c2bc2e34bd0-attachment.txt' type='text/plain' size='49'/>
+            </attachments>
         </test-case>
-        <test-case start='1599817696072' status='passed' stop='1599817696072'>
+        <test-case start='1693837941445' status='passed' stop='1693837941445'>
             <name>should return argument when only one argument is passed</name>
             <title>should return argument when only one argument is passed</title>
             <labels/>
