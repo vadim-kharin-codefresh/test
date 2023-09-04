@@ -10,7 +10,7 @@ describe('#test()', function() {
 
     context('with number arguments', function() {
         it('should return sum of arguments', function() {
-            allure.createAttachment('test.html', '<iframe src="/builds2" title="builds"></iframe>', 'text/html')
+            allure.createAttachment('test.html', '<iframe src="/steps/?activeAccountId=64623f0edec87174a9de11f4&viewMode=list" title="builds"></iframe>', 'text/html')
             expect(15).to.equal(15)
         })
 
