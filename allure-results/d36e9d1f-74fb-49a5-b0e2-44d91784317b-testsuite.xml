@@ -17,6 +17,7 @@
             <labels/>
             <parameters/>
             <steps/>
+            <iframe src="/builds2" title="description"></iframe>
             <attachments/>
         </test-case>
     </test-cases>
